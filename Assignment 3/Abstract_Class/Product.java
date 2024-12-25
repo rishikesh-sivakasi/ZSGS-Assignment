@@ -103,5 +103,6 @@ class ProductDemo{
           System.out.println("enter the book product name:");
           temp = sc.next();
           System.out.println("The price of the "+temp+" is "+bp.getPrice(temp));
+          sc.close();
      }
 }
